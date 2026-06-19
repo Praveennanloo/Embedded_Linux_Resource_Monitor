@@ -1,0 +1,12 @@
+monitor
+*.o
+monitor_result
+y   
+  git rm --cached monitor
+git rm --cached monitor_result
+git rm --cached y
+git rm --cached makefile.c
+
+git add .gitignore
+git commit -m "Cleanup repository and add gitignore"
+git push
