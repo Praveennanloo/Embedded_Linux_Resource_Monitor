@@ -139,7 +139,23 @@ Planned improvements include:
 
 ## Screenshots
 
-Project screenshots demonstrating compilation and execution can be added here.
+### CPU Information
+![CPU](screenshots/cpu-info.png)
+
+### Memory Information
+![Memory](screenshots/memory-usage.png)
+
+### Disk Information
+![Disk](screenshots/disk-info.png)
+
+### System Uptime
+![Uptime](screenshots/system-uptime.png)
+
+### Load Average
+![Load Average](screenshots/system-load-average.png)
+
+### Running Processes
+![Processes](screenshots/process-monitoring.png)
 
 ## Author
 
