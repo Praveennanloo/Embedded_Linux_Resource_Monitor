@@ -7,4 +7,6 @@ void show_disk_info();
 void show_uptime();
 void show_loadavg();
 void show_processes();
+void show_system_info();
+void show_datetime();
 #endif

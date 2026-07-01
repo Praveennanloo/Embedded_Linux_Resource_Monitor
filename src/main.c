@@ -17,8 +17,9 @@ int main()
         printf("4. Uptime\n");
         printf("5. Load Average\n");
         printf("6. Running Processes\n");
-        printf("7. Exit\n");
-
+        printf("7. System Information\n");
+        printf("8. Date & Time\n");
+        printf("9.Exit\n");
         printf("Enter Choice: ");
         scanf("%d", &choice);
 
@@ -45,7 +46,13 @@ int main()
                     show_processes();
                        break;
             case 7:
-                return 0;
+               show_system_info();
+               break;
+             case 8:
+              show_datetime();
+              break;
+              case 9:
+              return 0;
 
             default:
                 printf("Invalid Choice\n");

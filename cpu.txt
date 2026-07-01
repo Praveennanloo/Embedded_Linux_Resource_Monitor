@@ -1,0 +1,11 @@
+    PID USER     %CPU COMMAND
+   2121 praveen   150 ps
+   2122 praveen   150 head
+     96 root      0.6 systemd-udevd
+   2044 root      0.5 wsl-pro-service
+      1 root      0.2 systemd
+     53 root      0.2 systemd-journal
+    165 syslog    0.0 rsyslogd
+     88 systemd+  0.0 systemd-resolve
+    408 praveen   0.0 systemd
+    379 praveen   0.0 bash
